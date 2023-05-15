@@ -1,11 +1,11 @@
-const courses = "Next Level web development";
-let rollNumber = 1541;
+// const courses = "Next Level web development";
+// let rollNumber = 1541;
 
-rollNumber
+// rollNumber
 
-let data: number;
-data = 125
+// let data: number;
+// data = 125
 
 
 
-let add;
+// let add;

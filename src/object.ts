@@ -1,28 +1,28 @@
 // object declare 
 
-const user: {
-    //readonly 
-    readonly salary: number,
-    // literal type
+// const user: {
+//     //readonly 
+//     readonly salary: number,
+//     // literal type
 
-    company: 'ph bd',
-    // --------------
-    name: string,
-    age: number,
-    isMarried: boolean,
-    wife?: string
-} =
-{
-    salary: 50000,
-    // literal type
-    company: 'ph bd',
-    // ---------
-    name: 'Montu Mia',
-    age: 52,
-    isMarried: true,
-    //  wife key value does,t  declare but no array because ternary oparator declair  
-    // wife:'abc'
-}
+//     company: 'ph bd',
+//     // --------------
+//     name: string,
+//     age: number,
+//     isMarried: boolean,
+//     wife?: string
+// } =
+// {
+//     salary: 50000,
+//     // literal type
+//     company: 'ph bd',
+//     // ---------
+//     name: 'Montu Mia',
+//     age: 52,
+//     isMarried: true,
+//     //  wife key value does,t  declare but no array because ternary oparator declair  
+//     // wife:'abc'
+// }
 // can change but r
 // user.company='abcd '
 

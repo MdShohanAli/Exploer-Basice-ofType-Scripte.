@@ -1,0 +1,82 @@
+// class Person {
+
+//     takeNape(): void {
+//         console.log('I am sleeping 8 hour in daily');
+//     }
+
+// }
+
+// class Student extends Person {
+//     //  test(){
+//     //     this.
+//     //  }
+
+//     takeNape(): void {
+//         console.log('I am sleeping 10 hour in daily');
+//     }
+// }
+
+// class Developer extends Person {
+//     takeNape(): void {
+//         console.log('I am sleeping 6 hour in daily');
+//     }
+// }
+
+// function getNap(param: Person) {
+//     param.takeNape()
+
+// }
+
+// const person1 = new Person()
+// const person2 = new Student()
+// const person3 = new Developer()
+
+// getNap(person1)
+// getNap(person2)
+// getNap(person3)
+
+// // another example
+
+// class Shape {
+//     getArea(): number {
+//         return 0
+//     }
+// }
+
+// class Circle extends Shape {
+//     // test(){
+//     //     this.
+//     // }
+//     // area -> pi *r *r
+//     radius: number;
+//     constructor(radius: number) {
+//         super()
+//         this.radius = radius
+//     }
+//     getArea(): number {
+//         return Math.PI * this.radius * this.radius
+//     }
+
+// }
+
+// class Rectangle extends Shape {
+
+//     height: number;
+//     width: number;
+//     constructor(height: number, width: number) {
+//         super()
+//         this.height = height;
+//         this.width = width;
+//     }
+
+//     getArea(): number {
+//         return this.width * this.height
+//     }
+
+// }
+// function getAreaOfShape(param: Shape) {
+//     console.log(param.getArea());
+// }
+
+// getAreaOfShape(new Circle(10))
+// getAreaOfShape(new Rectangle(10, 12))
